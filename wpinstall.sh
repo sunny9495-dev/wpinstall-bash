@@ -53,10 +53,11 @@ sudo apt-get install libnss3
 sudo apt-get install libfontconfig1
 sudo apt-get install libxss1
 sudo apt-get install unzip
+sudo apt-get install chromium-chromedriver
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 wget -O wordpress.zip http://github.com/sunny9495-dev/linux-bash/blob/main/wordpress.zip?raw=true
 unzip wordpress.zip
-sudo chmod -R a+w ~/Desktop/wordpress
+rm wordpress.zip
