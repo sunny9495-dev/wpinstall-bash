@@ -1,8 +1,8 @@
 #!/bin/bash
 cd ~/Desktop
 apt install -y --fix-missing
-apt update
-apt upgrade
+apt update -y
+apt upgrade -y
 apt install -y libc-dev-bin
 apt install -y linux-libc-dev
 apt install -y libcrypt-dev
