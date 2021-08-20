@@ -41,12 +41,12 @@ apt install -y python-pip-whl
 apt install -y python3-pip
 apt install -y python3-pip
 apt install -y xclip
-pip3 install -y imap-tools --upgrade
-pip3 install -y selenium --upgrade
-pip3 install -y requests --upgrade
-pip3 install -y lxml --upgrade
-pip3 install -y pyperclip --upgrade
-pip3 install -y selenium-wire --upgrade
+pip3 install imap-tools --upgrade
+pip3 install selenium --upgrade
+pip3 install requests --upgrade
+pip3 install lxml --upgrade
+pip3 install pyperclip --upgrade
+pip3 install selenium-wire --upgrade
 apt install -y libglib2.0-dev
 apt install -y -y libgconf-2-4
 apt install -y libnss3
