@@ -56,7 +56,8 @@ sudo apt-get install unzip
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
-wget http://github.com/sunny9495-dev/linux-bash/blob/main/wordpress.zip?raw=true
+rm google-chrome-stable_current_amd64.deb
+wget -O wordpress.zip http://github.com/sunny9495-dev/linux-bash/blob/main/wordpress.zip?raw=true
 unzip wordpress.zip
 sudo chmod -R a+w ~/Desktop/wordpress
 print("installation of dependencies done, change directory with command cd ~/Desktop/wordpress and run python3 __main__.py")
