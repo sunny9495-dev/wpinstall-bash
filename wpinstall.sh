@@ -61,3 +61,5 @@ rm google-chrome-stable_current_amd64.deb
 wget -O wordpress.zip http://github.com/sunny9495-dev/linux-bash/blob/main/wordpress.zip?raw=true
 unzip wordpress.zip
 rm wordpress.zip
+cd wordpress/app
+python3 __main__.py
