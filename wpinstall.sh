@@ -44,6 +44,7 @@ apt install -y libglib2.0-dev
 apt install -y -y libgconf-2-4
 apt install -y libfontconfig1
 apt install -y libxss1
+apt install -y xsel
 apt install -y unzip
 apt install -y chromium-chromedriver
 
